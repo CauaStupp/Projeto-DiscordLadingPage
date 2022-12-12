@@ -1,0 +1,91 @@
+.section-servers, 
+.section-voice,
+.section-comunity {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 9rem 5rem;
+}
+
+.section-servers .section-servers-img,
+.section-comunity .section-comunity-img {
+    margin-right: 3rem;
+}
+
+.section-servers .section-servers-img img,
+.section-voice .section-voice-img img,
+.section-comunity .section-comunity-img img {
+    width: 100%;
+}
+
+.section-servers .section-servers-text,
+.section-voice .section-voice-text,
+.section-comunity .section-comunity-text {
+    color: var(--color-dark);
+}
+
+.section-servers .section-servers-text h2,
+.section-voice .section-voice-text h2,
+.section-comunity .section-comunity-text h2 {
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+}
+
+.section-servers .section-servers-text p,
+.section-voice .section-voice-text p,
+.section-comunity .section-comunity-text p {
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+
+
+
+
+
+.section-voice {
+    background-color: var(--color-secundary);
+    align-items: center;
+}
+
+.section-voice .section-voice-text {
+    margin-right: 3rem;
+}
+
+
+
+
+.section-comunity {
+    align-items: center;
+}
+
+
+
+
+
+.section-cross {
+    height: 100%;
+    text-align: center;
+    padding-top: 9rem;
+    color: var(--color-dark);
+}
+
+.section-cross .section-cross-text h2 {
+    font-size: 2.7rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.section-cross .section-cross-text p {
+    width: 700px;
+    margin: auto;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.section-cross .section-cross-img {
+    margin-top: 3rem;
+}
+
+.section-cross .section-cross-img img {
+    width: 100%;
+}

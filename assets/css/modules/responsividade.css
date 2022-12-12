@@ -1,0 +1,143 @@
+@media screen and (max-width: 1034px) {
+    
+    header nav {
+        justify-content: stretch;
+    }
+
+    header nav .links {
+        display: none;
+    }
+
+    header nav .btn-white {
+        margin-left: auto;
+    }
+
+    header .btn-mobile {
+        display: block;
+    }
+
+    header .home {
+        padding: 0 5rem;
+    }
+
+    header .home-text {
+        text-align: start;
+        margin-top: 4rem;
+    }
+
+    header .home-text .home-text-title p {
+        margin: 0;
+        width: 100%;
+    }
+
+    header .home-text .home-text-btns {
+        flex-direction: column;
+    }
+
+    header .home-text .home-text-btns .btn-white {
+        margin-bottom: 3rem;
+    }
+
+
+
+
+
+    .section-servers .section-servers-text h2, 
+    .section-voice .section-voice-text h2, 
+    .section-comunity .section-comunity-text h2 {
+        font-size: 2rem;
+    }
+
+    .section-servers .section-servers-text p, 
+    .section-voice .section-voice-text p, 
+    .section-comunity .section-comunity-text p {
+        line-height: 1.5rem;
+    }
+
+
+
+    footer .footer-net {
+        margin-right: 4rem;
+    }
+    
+    
+    footer .footer-links {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 3rem !important;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 764px) {
+    .section-servers,
+    .section-comunity {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+    }
+
+    .section-voice {
+        flex-direction: column-reverse;
+        height: 100%;
+        align-items: flex-start;
+    }
+
+    .section-servers .section-servers-text, 
+    .section-voice .section-voice-text, 
+    .section-comunity .section-comunity-text {
+        margin-top: 3rem;
+    }
+
+    .section-servers .section-servers-text p, 
+    .section-voice .section-voice-text p, 
+    .section-comunity .section-comunity-text p,
+    .section-cross .section-cross-text p {
+        width: 100%;
+    }
+
+
+    .section-cross {
+        padding: 5rem;
+    }
+
+    .section-cross .section-cross-text h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 564px) {
+    header {
+        height: 100%;
+        padding-bottom: 5rem;
+    }
+
+    header .home-text .home-text-title h2 {
+        font-size: 2rem;
+    }
+
+    header .home-text .home-text-title p {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+
+    header .home-text .home-text-btns,
+    header .home-text .home-text-btns .btn-white a,
+    header .home-text .home-text-btns .btn-dark a {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 504px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer .footer-net {
+        margin-right: 0;
+        margin-bottom: 5rem;
+    }
+}

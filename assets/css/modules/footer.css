@@ -1,0 +1,74 @@
+footer {
+    background-color: var(--color-dark);
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-net .footer-net-title h2 {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+footer .footer-net .footer-net-place {
+    display: flex;
+    color: var(--color-text);
+    margin: 1.5rem 0;
+}
+
+footer .footer-net .footer-net-place img {
+    margin-right: 1rem;
+}
+
+footer .footer-net .footer-net-icons ul {
+    display: flex;
+}
+
+footer .footer-net .footer-net-icons ul li {
+    margin-right: 1.5rem;
+}
+
+footer .footer-net .footer-net-icons ul li a {
+    color: var(--color-text);
+    font-size: 1.5rem;
+    transition: 0.2s all;
+}
+
+footer .footer-net .footer-net-icons ul li a:hover {
+    color: var(--color-primary);
+}
+
+
+
+
+
+
+
+
+footer .footer-links {
+    display: flex;
+    gap: 7rem;
+}
+
+footer .footer-links .footer-link h2 {
+    color: var(--color-primary);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+footer .footer-links .footer-link ul li {
+    margin-bottom: 1rem;
+}
+
+footer .footer-links .footer-link ul li a {
+    color: var(--color-text);
+    font-size: 0.9rem;
+    transition: 0.2s all;
+}
+
+footer .footer-links .footer-link ul li a:hover {
+    color: #b6b6b6;
+}
